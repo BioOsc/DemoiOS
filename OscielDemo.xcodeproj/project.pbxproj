@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BBACDCDF821DCAC01747F38 /* Pods_OscielDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47F2367AC8FB83A21E9E5DC4 /* Pods_OscielDemo.framework */; };
+		E91DF0A3243F6592002EF3A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91DF0A2243F6592002EF3A9 /* AppDelegate.swift */; };
+		E91DF0A7243F6592002EF3A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91DF0A6243F6592002EF3A9 /* ViewController.swift */; };
+		E91DF0AA243F6592002EF3A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91DF0A8243F6592002EF3A9 /* Main.storyboard */; };
+		E91DF0AC243F6595002EF3A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91DF0AB243F6595002EF3A9 /* Assets.xcassets */; };
+		E91DF0AF243F6595002EF3A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91DF0AD243F6595002EF3A9 /* LaunchScreen.storyboard */; };
+		E91DF0B8243F67C3002EF3A9 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91DF0B7243F67C3002EF3A9 /* Constant.swift */; };
+		E91DF0BA243F6B76002EF3A9 /* rest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91DF0B9243F6B76002EF3A9 /* rest.swift */; };
+		E91DF0BC243F6B8A002EF3A9 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91DF0BB243F6B8A002EF3A9 /* ViewModel.swift */; };
+		E91DF0BE243F7A32002EF3A9 /* CommonUtills.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91DF0BD243F7A32002EF3A9 /* CommonUtills.swift */; };
+		E91DF0C0243F8684002EF3A9 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91DF0BF243F8683002EF3A9 /* MainVC.swift */; };
+		E91DF0C4243F8E8A002EF3A9 /* MainSTB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91DF0C3243F8E8A002EF3A9 /* MainSTB.storyboard */; };
+		E91DF0C6243F8F67002EF3A9 /* AppSTB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91DF0C5243F8F67002EF3A9 /* AppSTB.swift */; };
+		E91DF0C8243F9D9B002EF3A9 /* MapTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91DF0C7243F9D9B002EF3A9 /* MapTVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45ACF69B3214E047F4A9963A /* Pods-OscielDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OscielDemo.debug.xcconfig"; path = "Target Support Files/Pods-OscielDemo/Pods-OscielDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		47F2367AC8FB83A21E9E5DC4 /* Pods_OscielDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OscielDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		728231900F8BCDC02A3B97C8 /* Pods-OscielDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OscielDemo.release.xcconfig"; path = "Target Support Files/Pods-OscielDemo/Pods-OscielDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E91DF09F243F6592002EF3A9 /* OscielDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OscielDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91DF0A2243F6592002EF3A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E91DF0A6243F6592002EF3A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E91DF0A9243F6592002EF3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E91DF0AB243F6595002EF3A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E91DF0AE243F6595002EF3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E91DF0B0243F6595002EF3A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E91DF0B7243F67C3002EF3A9 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		E91DF0B9243F6B76002EF3A9 /* rest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rest.swift; sourceTree = "<group>"; };
+		E91DF0BB243F6B8A002EF3A9 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E91DF0BD243F7A32002EF3A9 /* CommonUtills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonUtills.swift; sourceTree = "<group>"; };
+		E91DF0BF243F8683002EF3A9 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		E91DF0C3243F8E8A002EF3A9 /* MainSTB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainSTB.storyboard; sourceTree = "<group>"; };
+		E91DF0C5243F8F67002EF3A9 /* AppSTB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSTB.swift; sourceTree = "<group>"; };
+		E91DF0C7243F9D9B002EF3A9 /* MapTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E91DF09C243F6592002EF3A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBACDCDF821DCAC01747F38 /* Pods_OscielDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		716112D65BBF2D3441492D88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47F2367AC8FB83A21E9E5DC4 /* Pods_OscielDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FAC56BDE9073EE513772814 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45ACF69B3214E047F4A9963A /* Pods-OscielDemo.debug.xcconfig */,
+				728231900F8BCDC02A3B97C8 /* Pods-OscielDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E91DF096243F6592002EF3A9 = {
+			isa = PBXGroup;
+			children = (
+				E91DF0A1243F6592002EF3A9 /* OscielDemo */,
+				E91DF0A0243F6592002EF3A9 /* Products */,
+				8FAC56BDE9073EE513772814 /* Pods */,
+				716112D65BBF2D3441492D88 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E91DF0A0243F6592002EF3A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E91DF09F243F6592002EF3A9 /* OscielDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E91DF0A1243F6592002EF3A9 /* OscielDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E91DF0C2243F8E31002EF3A9 /* View */,
+				E91DF0B6243F67A2002EF3A9 /* Tool */,
+				E91DF0A2243F6592002EF3A9 /* AppDelegate.swift */,
+				E91DF0A6243F6592002EF3A9 /* ViewController.swift */,
+				E91DF0A8243F6592002EF3A9 /* Main.storyboard */,
+				E91DF0AB243F6595002EF3A9 /* Assets.xcassets */,
+				E91DF0AD243F6595002EF3A9 /* LaunchScreen.storyboard */,
+				E91DF0B0243F6595002EF3A9 /* Info.plist */,
+			);
+			path = OscielDemo;
+			sourceTree = "<group>";
+		};
+		E91DF0B6243F67A2002EF3A9 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E91DF0B7243F67C3002EF3A9 /* Constant.swift */,
+				E91DF0B9243F6B76002EF3A9 /* rest.swift */,
+				E91DF0BB243F6B8A002EF3A9 /* ViewModel.swift */,
+				E91DF0BD243F7A32002EF3A9 /* CommonUtills.swift */,
+				E91DF0C5243F8F67002EF3A9 /* AppSTB.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E91DF0C2243F8E31002EF3A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E91DF0BF243F8683002EF3A9 /* MainVC.swift */,
+				E91DF0C3243F8E8A002EF3A9 /* MainSTB.storyboard */,
+				E91DF0C7243F9D9B002EF3A9 /* MapTVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E91DF09E243F6592002EF3A9 /* OscielDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91DF0B3243F6595002EF3A9 /* Build configuration list for PBXNativeTarget "OscielDemo" */;
+			buildPhases = (
+				79B418F23F3D9E624615109B /* [CP] Check Pods Manifest.lock */,
+				E91DF09B243F6592002EF3A9 /* Sources */,
+				E91DF09C243F6592002EF3A9 /* Frameworks */,
+				E91DF09D243F6592002EF3A9 /* Resources */,
+				505E616C52C56BD0E786F743 /* [CP] Embed Pods Frameworks */,
+				B381EEF04410A5B23EEF9B3E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OscielDemo;
+			productName = OscielDemo;
+			productReference = E91DF09F243F6592002EF3A9 /* OscielDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E91DF097243F6592002EF3A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Desarrollo;
+				TargetAttributes = {
+					E91DF09E243F6592002EF3A9 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = E91DF09A243F6592002EF3A9 /* Build configuration list for PBXProject "OscielDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E91DF096243F6592002EF3A9;
+			productRefGroup = E91DF0A0243F6592002EF3A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E91DF09E243F6592002EF3A9 /* OscielDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E91DF09D243F6592002EF3A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91DF0AF243F6595002EF3A9 /* LaunchScreen.storyboard in Resources */,
+				E91DF0AC243F6595002EF3A9 /* Assets.xcassets in Resources */,
+				E91DF0AA243F6592002EF3A9 /* Main.storyboard in Resources */,
+				E91DF0C4243F8E8A002EF3A9 /* MainSTB.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		505E616C52C56BD0E786F743 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OscielDemo/Pods-OscielDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OscielDemo/Pods-OscielDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OscielDemo/Pods-OscielDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79B418F23F3D9E624615109B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OscielDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B381EEF04410A5B23EEF9B3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OscielDemo/Pods-OscielDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OscielDemo/Pods-OscielDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OscielDemo/Pods-OscielDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E91DF09B243F6592002EF3A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91DF0BC243F6B8A002EF3A9 /* ViewModel.swift in Sources */,
+				E91DF0C8243F9D9B002EF3A9 /* MapTVC.swift in Sources */,
+				E91DF0C6243F8F67002EF3A9 /* AppSTB.swift in Sources */,
+				E91DF0A7243F6592002EF3A9 /* ViewController.swift in Sources */,
+				E91DF0A3243F6592002EF3A9 /* AppDelegate.swift in Sources */,
+				E91DF0BE243F7A32002EF3A9 /* CommonUtills.swift in Sources */,
+				E91DF0B8243F67C3002EF3A9 /* Constant.swift in Sources */,
+				E91DF0BA243F6B76002EF3A9 /* rest.swift in Sources */,
+				E91DF0C0243F8684002EF3A9 /* MainVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E91DF0A8243F6592002EF3A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E91DF0A9243F6592002EF3A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E91DF0AD243F6595002EF3A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E91DF0AE243F6595002EF3A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E91DF0B1243F6595002EF3A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E91DF0B2243F6595002EF3A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E91DF0B4243F6595002EF3A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45ACF69B3214E047F4A9963A /* Pods-OscielDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G25Y346FQ8;
+				INFOPLIST_FILE = OscielDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.test.test.OscielDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E91DF0B5243F6595002EF3A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728231900F8BCDC02A3B97C8 /* Pods-OscielDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G25Y346FQ8;
+				INFOPLIST_FILE = OscielDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.test.test.OscielDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E91DF09A243F6592002EF3A9 /* Build configuration list for PBXProject "OscielDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91DF0B1243F6595002EF3A9 /* Debug */,
+				E91DF0B2243F6595002EF3A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91DF0B3243F6595002EF3A9 /* Build configuration list for PBXNativeTarget "OscielDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91DF0B4243F6595002EF3A9 /* Debug */,
+				E91DF0B5243F6595002EF3A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E91DF097243F6592002EF3A9 /* Project object */;
+}
