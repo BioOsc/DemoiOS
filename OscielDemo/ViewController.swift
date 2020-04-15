@@ -60,6 +60,7 @@ class ViewController: UIViewController {
         loginVM.showAlertClosure = {
             if (self.loginVM.errorMessage != "" && self.loginVM.errorMessage != nil) {
                 CommonUtils.presentAlert(message: self.loginVM.errorMessage!, title: "Error", origin: self)
+                self.loginVM.errorMessage = ""
             }
         }
     }

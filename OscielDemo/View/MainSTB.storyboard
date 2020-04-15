@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6Ko-mO-adx">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -68,9 +69,8 @@
                                     <constraint firstAttribute="width" secondItem="m2I-PF-kot" secondAttribute="height" multiplier="1:1" id="JIA-eg-eG4"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1vK-jU-TqT">
-                                <rect key="frame" x="328" y="672" width="51" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1vK-jU-TqT">
+                                <rect key="frame" x="353" y="696" width="51" height="30"/>
                                 <state key="normal" title="LogOut"/>
                                 <connections>
                                     <action selector="logOut:" destination="sHR-Fu-uOZ" eventType="touchUpInside" id="Nmb-lt-Sqd"/>
@@ -86,10 +86,12 @@
                             <constraint firstItem="x2b-v9-7JD" firstAttribute="top" secondItem="LxP-xO-JD0" secondAttribute="bottom" constant="25" id="LTu-Jk-aER"/>
                             <constraint firstItem="mJJ-zu-22X" firstAttribute="top" secondItem="x2b-v9-7JD" secondAttribute="bottom" constant="50" id="SbD-6g-8a8"/>
                             <constraint firstItem="x2b-v9-7JD" firstAttribute="leading" secondItem="mEC-wC-N8x" secondAttribute="leading" constant="50" id="ToV-22-dU8"/>
+                            <constraint firstItem="mEC-wC-N8x" firstAttribute="bottom" secondItem="1vK-jU-TqT" secondAttribute="bottom" constant="10" id="W8m-qZ-xrn"/>
                             <constraint firstItem="YxD-5h-Lm1" firstAttribute="top" secondItem="mEC-wC-N8x" secondAttribute="top" constant="50" id="Xwv-jR-f94"/>
                             <constraint firstItem="LxP-xO-JD0" firstAttribute="top" secondItem="m2I-PF-kot" secondAttribute="bottom" constant="50" id="fMM-zF-WfT"/>
                             <constraint firstItem="LxP-xO-JD0" firstAttribute="leading" secondItem="mEC-wC-N8x" secondAttribute="leading" constant="50" id="p2R-t8-L3H"/>
                             <constraint firstItem="mEC-wC-N8x" firstAttribute="trailing" secondItem="LxP-xO-JD0" secondAttribute="trailing" constant="50" id="qqQ-ef-cKi"/>
+                            <constraint firstItem="mEC-wC-N8x" firstAttribute="trailing" secondItem="1vK-jU-TqT" secondAttribute="trailing" constant="10" id="sQj-jU-Msj"/>
                             <constraint firstItem="YxD-5h-Lm1" firstAttribute="centerX" secondItem="VIv-G5-lFZ" secondAttribute="centerX" id="sZX-oA-dXz"/>
                             <constraint firstItem="m2I-PF-kot" firstAttribute="top" secondItem="YxD-5h-Lm1" secondAttribute="bottom" constant="15" id="vAx-YP-F3r"/>
                         </constraints>
@@ -190,7 +192,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Map View" id="hwe-hj-YZR">
-                        <barButtonItem key="leftBarButtonItem" title="Item" style="plain" id="p0d-lD-Tdp">
+                        <barButtonItem key="leftBarButtonItem" title="Back" style="plain" id="p0d-lD-Tdp">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="backView:" destination="qxI-LW-f6Y" id="chG-Lq-asI"/>
